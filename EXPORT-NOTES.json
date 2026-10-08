@@ -1,0 +1,22 @@
+{
+  "source_commit": "bd1f415924732b94d4d85087622adcf8a7793b40",
+  "source_files": 189,
+  "adapted_files": [
+    ".gitignore",
+    ".openai/hosting.json",
+    "README.md",
+    "package.json"
+  ],
+  "source_website_unchanged": true,
+  "active_renderer": "src/ai4life/site.mjs",
+  "note": "Only npm scripts, gitignore, README and the copied hosting binding are adapted. All page rendering, content, client scripts, styles, static assets and archived framework components are preserved.",
+  "checks": {
+    "npm_install": "passed",
+    "npm_run_build": "passed",
+    "npm_run_verify": "passed",
+    "npm_run_dev": "passed",
+    "http_routes": 18,
+    "secret_scan": "no detected credentials",
+    "original_product_sources_assets_unchanged": true
+  }
+}

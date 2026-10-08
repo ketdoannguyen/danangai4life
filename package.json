@@ -1,0 +1,16 @@
+{
+  "name": "danangai4life",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/standalone-server.mjs --watch",
+    "build": "node build.mjs",
+    "verify": "node verify.mjs",
+    "start": "node scripts/standalone-server.mjs",
+    "preview": "node scripts/standalone-server.mjs"
+  }
+}
